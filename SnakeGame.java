@@ -27,7 +27,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
     Tile food;
     Random random;
 
-    //game logic
+    //game logic code :
     int velocityX;
     int velocityY;
     Timer gameLoop;
@@ -52,7 +52,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
         velocityX = 1;
         velocityY = 0;
         
-		//game timer
+		//game timer code :
 		gameLoop = new Timer(100, this); //how long it takes to start timer, milliseconds gone between frames 
         gameLoop.start();
 	}	
