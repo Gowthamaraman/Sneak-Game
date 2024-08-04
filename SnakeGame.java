@@ -178,7 +178,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
         }
     }
 
-    //not needed
+    //not needed to the code
     @Override
     public void keyTyped(KeyEvent e) {}
 
